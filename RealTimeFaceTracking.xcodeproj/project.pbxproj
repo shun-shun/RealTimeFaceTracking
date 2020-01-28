@@ -14,6 +14,8 @@
 		248BC0D323D3351400E4401A /* RealTimeFaceTracking.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 248BC0D123D3351400E4401A /* RealTimeFaceTracking.xcdatamodeld */; };
 		248BC0D523D3351800E4401A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 248BC0D423D3351800E4401A /* Assets.xcassets */; };
 		248BC0D823D3351800E4401A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 248BC0D623D3351800E4401A /* LaunchScreen.storyboard */; };
+		248BC0E023D3359B00E4401A /* FaceTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248BC0DF23D3359B00E4401A /* FaceTracker.swift */; };
+		248BC0E223D3472D00E4401A /* lauhuman.png in Resources */ = {isa = PBXBuildFile; fileRef = 248BC0E123D3472D00E4401A /* lauhuman.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		248BC0D423D3351800E4401A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		248BC0D723D3351800E4401A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		248BC0D923D3351800E4401A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		248BC0DF23D3359B00E4401A /* FaceTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceTracker.swift; sourceTree = "<group>"; };
+		248BC0E123D3472D00E4401A /* lauhuman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lauhuman.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +65,10 @@
 				248BC0C823D3351400E4401A /* AppDelegate.swift */,
 				248BC0CA23D3351400E4401A /* SceneDelegate.swift */,
 				248BC0CC23D3351400E4401A /* ViewController.swift */,
+				248BC0DF23D3359B00E4401A /* FaceTracker.swift */,
 				248BC0CE23D3351400E4401A /* Main.storyboard */,
 				248BC0D423D3351800E4401A /* Assets.xcassets */,
+				248BC0E123D3472D00E4401A /* lauhuman.png */,
 				248BC0D623D3351800E4401A /* LaunchScreen.storyboard */,
 				248BC0D923D3351800E4401A /* Info.plist */,
 				248BC0D123D3351400E4401A /* RealTimeFaceTracking.xcdatamodeld */,
@@ -130,6 +136,7 @@
 			files = (
 				248BC0D823D3351800E4401A /* LaunchScreen.storyboard in Resources */,
 				248BC0D523D3351800E4401A /* Assets.xcassets in Resources */,
+				248BC0E223D3472D00E4401A /* lauhuman.png in Resources */,
 				248BC0D023D3351400E4401A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,6 +150,7 @@
 			files = (
 				248BC0CD23D3351400E4401A /* ViewController.swift in Sources */,
 				248BC0C923D3351400E4401A /* AppDelegate.swift in Sources */,
+				248BC0E023D3359B00E4401A /* FaceTracker.swift in Sources */,
 				248BC0D323D3351400E4401A /* RealTimeFaceTracking.xcdatamodeld in Sources */,
 				248BC0CB23D3351400E4401A /* SceneDelegate.swift in Sources */,
 			);
